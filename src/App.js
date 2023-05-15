@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import ChartPage from './ChartPage';
+import LoadingSpinner from './LoadingSpinner';
 function App() {
   const [viewChart, setViewChart] = useState(false);
   const [wordCount, setWordCount] = useState([]);    
@@ -46,7 +47,7 @@ function App() {
           {
             wordCount.length > 0 ? (
               <ChartPage wordCount={wordCount} />
-            ) : ('Loading...')
+            ) : (<LoadingSpinner/>)
           }
         </div>
       ) : (
