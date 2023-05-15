@@ -29,7 +29,7 @@ const ChartComponent = ({ wordCount }) => {
   return (
     <div className="chart-sub-container">
       <div className="chart-main">
-        <canvas ref={chartRef} className="h-[80px]" />
+        <canvas ref={chartRef} className="canvas" />
       </div>
       <DownloadCsv wordCount={wordCount} />
     </div>
