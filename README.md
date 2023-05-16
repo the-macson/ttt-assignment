@@ -1,6 +1,8 @@
 
 # Histogram
 
+## Link 
+https://the-macson.github.io/ttt-assignment/
 ### Description
 Histogram is a ReactJS application that generates charts based on data provided. It utilizes React, CSS and Chartjs 
 
